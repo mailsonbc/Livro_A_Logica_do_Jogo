@@ -53,8 +53,8 @@ public class AnimacaoTela extends JFrame {
         tela.repaint();
     }
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         AnimacaoTela anima = new AnimacaoTela();
         anima.iniciaAnimacao();
-    }
+    }*/
 }
