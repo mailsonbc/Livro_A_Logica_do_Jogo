@@ -29,7 +29,7 @@ public class Interativo extends JFrame {
             @Override
             public void keyTyped(KeyEvent e) {
 
-            }
+                }
 
             @Override
             public void keyPressed(KeyEvent e) {
@@ -40,16 +40,16 @@ public class Interativo extends JFrame {
                         dispose();
                         break;
                     case KeyEvent.VK_UP:
-                        py--;
+                        py = py - 3;
                         break;
                     case KeyEvent.VK_DOWN:
-                        py++;
+                        py = py + 3;
                         break;
                     case  KeyEvent.VK_LEFT:
-                        px--;
+                        px = px - 3;
                         break;
                     case  KeyEvent.VK_RIGHT:
-                        px++;
+                        px = px + 3;
                         break;
                 }
             }
